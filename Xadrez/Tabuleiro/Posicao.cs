@@ -10,4 +10,9 @@ public class Posicao
         Linha = linha;
         Coluna = coluna;
     }
-}
+
+    public override string ToString()
+    {
+        return Linha + ", " + Coluna;
+    }
+} 
